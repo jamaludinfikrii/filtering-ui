@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Dummy from './Dummy'
 import App2 from './filterBE'
+import Rajaongkir from './rajaongkir'
 import { BrowserRouter } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
                 <BrowserRouter>    
-                    <App2 />
+                    <Rajaongkir />
                 </BrowserRouter>
                 , document.getElementById('root'));
 
